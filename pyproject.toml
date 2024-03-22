@@ -16,6 +16,7 @@ scikit-learn = "^1.4.0"
 streamlit = "^1.31.1"
 lazypredict-nightly = "^0.3.0"
 pydantic = "^2.6.3"
+azure-ai-ml = "^1.14.0"
 
 
 [tool.poetry.group.dev.dependencies]
