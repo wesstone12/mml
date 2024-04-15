@@ -1262,6 +1262,23 @@ pandas = ["pandas (>=0.24.0)"]
 scikit-learn = ["scikit-learn (!=0.22.0)"]
 
 [[package]]
+name = "mapie"
+version = "0.8.3"
+description = "A scikit-learn-compatible module for estimating prediction intervals."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "MAPIE-0.8.3-py3-none-any.whl", hash = "sha256:02b9555c81257caf7e14feef33b86d0af8d79554d58e907c2927c50f662ce27e"},
+    {file = "MAPIE-0.8.3.tar.gz", hash = "sha256:bded6ac327fd83e908f7aafa23c11c48e31bee2c0355ff931dc05c1826f66f8e"},
+]
+
+[package.dependencies]
+numpy = ">=1.21"
+packaging = "*"
+scikit-learn = "*"
+scipy = "*"
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
@@ -3226,4 +3243,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "34e3a388f0e21e4894fca45cd44c3e0033ce5583da88023f9c26c451bea12977"
+content-hash = "96d6a871869147b375a9c2abab61b75cb9c70926f43ea71542dc1a63554101a4"
