@@ -3097,6 +3097,17 @@ tzdata = {version = "*", markers = "platform_system == \"Windows\""}
 devenv = ["check-manifest", "pytest (>=4.3)", "pytest-cov", "pytest-mock (>=3.3)", "zest.releaser"]
 
 [[package]]
+name = "ucimlrepo"
+version = "0.0.6"
+description = "Package to easily import datasets from the UC Irvine Machine Learning Repository into scripts and notebooks."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "ucimlrepo-0.0.6-py3-none-any.whl", hash = "sha256:2488d85f249ca9aad39b2a2b6f915d3d25cda37543de7ab389c1ba042b2e9c61"},
+    {file = "ucimlrepo-0.0.6.tar.gz", hash = "sha256:16d1310a120ad5e362b1c83429e99560cfc1dc270407f74f77435edf50f24ec4"},
+]
+
+[[package]]
 name = "urllib3"
 version = "2.2.1"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -3243,4 +3254,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "96d6a871869147b375a9c2abab61b75cb9c70926f43ea71542dc1a63554101a4"
+content-hash = "8d8b9ce3ce4642ac3c3f6e2483590cffa7d9808ff9398388362a4fdffe50e175"

@@ -20,6 +20,7 @@ azure-ai-ml = "^1.14.0"
 statsmodels = "^0.14.1"
 graphviz = "^0.20.3"
 mapie = "^0.8.3"
+ucimlrepo = "^0.0.6"
 
 
 [tool.poetry.group.dev.dependencies]
