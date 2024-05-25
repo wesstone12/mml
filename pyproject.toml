@@ -23,6 +23,9 @@ mapie = "^0.8.3"
 ucimlrepo = "^0.0.6"
 statsforecast = "^1.7.4"
 mlforecast = "^0.13.0"
+openpyxl = "^3.1.2"
+nixtla = "^0.5.1"
+yfinance = "^0.2.40"
 
 
 [tool.poetry.group.dev.dependencies]
